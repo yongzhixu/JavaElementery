@@ -10,6 +10,7 @@ package week1;
  * @author Asus
  */
 import java.io.*;
+import sun.management.resources.agent;
 
 public class GravityCalculator {
 
@@ -22,6 +23,23 @@ public class GravityCalculator {
         finalPosition = .5 * gravity * Math.pow(fallingTime, 2) + initialVelocity + initialPosition;
         System.out.println("The object's position after " + fallingTime + " seconds is 			" + finalPosition + " m.");
 
+        int N = 5;
+        int D = 4;
+        int A = 0;
+        calcValue(N);
+        System.out.println(N);
+        System.out.println(lastname+age +sex);
+
     }
 
+    public static String lastname; // Patient’s last name 
+    public static int age; // Patient’s age on admission 
+    public static boolean sex; // Indicates if patient is male or female 
+
+    static void calcValue(int N) {
+        int D;
+        for (D = 0; D < 5; D++) {
+            N++;
+        }
+    }
 }
