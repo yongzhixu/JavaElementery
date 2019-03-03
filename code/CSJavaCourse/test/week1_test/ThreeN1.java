@@ -45,7 +45,7 @@ public class ThreeN1 {
             System.out.println(N);
             counter = counter + 1;
         }
-
+        
         System.out.println();
         System.out.print("There were ");
         System.out.print(counter);
