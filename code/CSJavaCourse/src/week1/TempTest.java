@@ -6,7 +6,9 @@
 package week1;
 
 import static java.lang.System.out;
+import java.awt.Color;
 
+import Graphic.GraphicDraw;
 /**
  *
  * @author 86188
@@ -17,10 +19,21 @@ public class TempTest {
         LEFT, RIGHT, CENTER
     }
     static String[] namelist = new String[100];
+    
+    
 
+    
     public static void main(String[] args) {
         out.println(namelist[45]);
         out.println(Alignment.CENTER); 
+        out.println(Color.RED);
+        GraphicDraw d = new GraphicDraw();
+        
+        d.drawCircle(0);
+        
+        
+        
+        
 
     }
 }
