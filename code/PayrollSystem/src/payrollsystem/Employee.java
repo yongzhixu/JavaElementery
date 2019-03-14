@@ -15,6 +15,31 @@ public abstract class Employee {
     private String name;
     private Vehicle vehicle;
 
+    public Employee() {
+        //default constructor is a constructor with zero parameter
+        System.out.println("....inside default constructor");
+        empId = 0;
+        name = "";
+    }
+
+    public Employee(int pEmpId, String pName, Vehicle pV) {
+        //a non default constructor with at least one parameter
+        System.out.println("....inside non default constructor");
+        empId = pEmpId;
+        name = pName;
+        this.vehicle = pV;
+    }
+
+    public Employee(int pEmpId, String pName, String pPlate, String pColor) {
+        //a non default constructor with at least one parameter
+        System.out.println("....inside non default constructor");
+        empId = pEmpId;
+        name = pName;
+        this.vehicle = new Vehicle(pPlate, pColor);
+    }
+
+    public abstract double calculatePay();
+
     /**
      * @return the empId
      */

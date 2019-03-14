@@ -1,2 +1,0 @@
-snakeyescount.cc
-snakeyescount.ArrayEye

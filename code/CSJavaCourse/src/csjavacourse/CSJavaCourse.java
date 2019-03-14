@@ -16,6 +16,16 @@ public class CSJavaCourse {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        int x;
+        x = 5;
+        switch (x) {
+            case 1:
+                break;
+            case 2:
+                break;
+            default:
+                System.out.println("The choice was not found");
+        }
     }
-    
+
 }

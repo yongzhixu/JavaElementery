@@ -5,6 +5,8 @@
  */
 package payrollsystem;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author Asus
@@ -17,5 +19,32 @@ public class PayrollSystem {
     public static void main(String[] args) {
         // TODO code application logic here
     }
-    
+
+    private FullTime readNewFullTime() {
+        Vehicle vehicle = new Vehicle();
+        FullTime fullTime = new FullTime(0, "", 0, 0, vehicle);
+        return fullTime;
+    }
+
+    private PartTime readNewPartTime() {
+        Vehicle vehicle = new Vehicle();
+        PartTime partTime = new PartTime(0, "", 0, 0, vehicle);
+        return partTime;
+    }
+
+    private void addEmployee(ArrayList<Employee> pArrEmp, Employee pEmp) {
+    }
+
+    private void calPayroll(ArrayList<Employee> pArrEmp) {
+    }
+
+    private byte showMenu() {
+        return 'd';
+    }
+
+    private Vehicle getVehicle() {
+        Vehicle vehicle = new Vehicle();
+        return vehicle;
+    }
+
 }
