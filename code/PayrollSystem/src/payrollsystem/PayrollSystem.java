@@ -61,7 +61,6 @@ public class PayrollSystem {
     }
 
     public static FullTime readNewFullTime() {
-
         int id = 0;
         String name = null;
         double sal = 0.0;

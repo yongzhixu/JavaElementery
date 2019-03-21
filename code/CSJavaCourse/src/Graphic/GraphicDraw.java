@@ -22,7 +22,7 @@ public class GraphicDraw {
                     (int) (100 * Math.random()),
                     (int) (100 * Math.random()));
             circleData[i].radius++;
-            circleData[i].draw(graphics);
+//            circleData[i].draw(graphics);
         }
     }
 
